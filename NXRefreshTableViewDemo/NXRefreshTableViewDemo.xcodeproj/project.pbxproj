@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88C6B22D1C9BE79A002C7FAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C6B22C1C9BE79A002C7FAF /* main.m */; };
+		88C6B2301C9BE79A002C7FAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C6B22F1C9BE79A002C7FAF /* AppDelegate.m */; };
+		88C6B2331C9BE79A002C7FAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C6B2321C9BE79A002C7FAF /* ViewController.m */; };
+		88C6B2361C9BE79A002C7FAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C6B2341C9BE79A002C7FAF /* Main.storyboard */; };
+		88C6B2381C9BE79A002C7FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C6B2371C9BE79A002C7FAF /* Assets.xcassets */; };
+		88C6B23B1C9BE79A002C7FAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C6B2391C9BE79A002C7FAF /* LaunchScreen.storyboard */; };
+		88C6B2461C9BE79A002C7FAF /* NXRefreshTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C6B2451C9BE79A002C7FAF /* NXRefreshTableViewDemoTests.m */; };
+		88C6B2511C9BE79A002C7FAF /* NXRefreshTableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C6B2501C9BE79A002C7FAF /* NXRefreshTableViewDemoUITests.m */; };
+		88C6B2641C9BE971002C7FAF /* NXRefreshTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C6B2631C9BE971002C7FAF /* NXRefreshTableView.m */; };
+		FBFF7843E3A9328F33DD8D3D /* libPods-NXRefreshTableViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3B131BF5600E11923E3C92 /* libPods-NXRefreshTableViewDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88C6B2421C9BE79A002C7FAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88C6B2201C9BE79A002C7FAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88C6B2271C9BE79A002C7FAF;
+			remoteInfo = NXRefreshTableViewDemo;
+		};
+		88C6B24D1C9BE79A002C7FAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88C6B2201C9BE79A002C7FAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88C6B2271C9BE79A002C7FAF;
+			remoteInfo = NXRefreshTableViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		284EC2792C3C209648635B5B /* Pods-NXRefreshTableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NXRefreshTableViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NXRefreshTableViewDemo/Pods-NXRefreshTableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2D3B131BF5600E11923E3C92 /* libPods-NXRefreshTableViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NXRefreshTableViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C6B2281C9BE79A002C7FAF /* NXRefreshTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NXRefreshTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C6B22C1C9BE79A002C7FAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88C6B22E1C9BE79A002C7FAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88C6B22F1C9BE79A002C7FAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88C6B2311C9BE79A002C7FAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88C6B2321C9BE79A002C7FAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88C6B2351C9BE79A002C7FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88C6B2371C9BE79A002C7FAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88C6B23A1C9BE79A002C7FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88C6B23C1C9BE79A002C7FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C6B2411C9BE79A002C7FAF /* NXRefreshTableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NXRefreshTableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C6B2451C9BE79A002C7FAF /* NXRefreshTableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXRefreshTableViewDemoTests.m; sourceTree = "<group>"; };
+		88C6B2471C9BE79A002C7FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C6B24C1C9BE79A002C7FAF /* NXRefreshTableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NXRefreshTableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C6B2501C9BE79A002C7FAF /* NXRefreshTableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXRefreshTableViewDemoUITests.m; sourceTree = "<group>"; };
+		88C6B2521C9BE79A002C7FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C6B2621C9BE971002C7FAF /* NXRefreshTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXRefreshTableView.h; sourceTree = "<group>"; };
+		88C6B2631C9BE971002C7FAF /* NXRefreshTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXRefreshTableView.m; sourceTree = "<group>"; };
+		C93F02BD2B2FB2D920C71C1D /* Pods-NXRefreshTableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NXRefreshTableViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NXRefreshTableViewDemo/Pods-NXRefreshTableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88C6B2251C9BE79A002C7FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFF7843E3A9328F33DD8D3D /* libPods-NXRefreshTableViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C6B23E1C9BE79A002C7FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C6B2491C9BE79A002C7FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88C6B21F1C9BE79A002C7FAF = {
+			isa = PBXGroup;
+			children = (
+				88C6B25E1C9BE904002C7FAF /* NXRefreshTableView */,
+				88C6B22A1C9BE79A002C7FAF /* NXRefreshTableViewDemo */,
+				88C6B2441C9BE79A002C7FAF /* NXRefreshTableViewDemoTests */,
+				88C6B24F1C9BE79A002C7FAF /* NXRefreshTableViewDemoUITests */,
+				88C6B2291C9BE79A002C7FAF /* Products */,
+				B9E36CF97809CF13E7280150 /* Pods */,
+				CB9A3503EC6A50913A02A98C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88C6B2291C9BE79A002C7FAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88C6B2281C9BE79A002C7FAF /* NXRefreshTableViewDemo.app */,
+				88C6B2411C9BE79A002C7FAF /* NXRefreshTableViewDemoTests.xctest */,
+				88C6B24C1C9BE79A002C7FAF /* NXRefreshTableViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88C6B22A1C9BE79A002C7FAF /* NXRefreshTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				88C6B22E1C9BE79A002C7FAF /* AppDelegate.h */,
+				88C6B22F1C9BE79A002C7FAF /* AppDelegate.m */,
+				88C6B2311C9BE79A002C7FAF /* ViewController.h */,
+				88C6B2321C9BE79A002C7FAF /* ViewController.m */,
+				88C6B22B1C9BE79A002C7FAF /* Supporting Files */,
+			);
+			path = NXRefreshTableViewDemo;
+			sourceTree = "<group>";
+		};
+		88C6B22B1C9BE79A002C7FAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88C6B2341C9BE79A002C7FAF /* Main.storyboard */,
+				88C6B2371C9BE79A002C7FAF /* Assets.xcassets */,
+				88C6B2391C9BE79A002C7FAF /* LaunchScreen.storyboard */,
+				88C6B23C1C9BE79A002C7FAF /* Info.plist */,
+				88C6B22C1C9BE79A002C7FAF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88C6B2441C9BE79A002C7FAF /* NXRefreshTableViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				88C6B2451C9BE79A002C7FAF /* NXRefreshTableViewDemoTests.m */,
+				88C6B2471C9BE79A002C7FAF /* Info.plist */,
+			);
+			path = NXRefreshTableViewDemoTests;
+			sourceTree = "<group>";
+		};
+		88C6B24F1C9BE79A002C7FAF /* NXRefreshTableViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88C6B2501C9BE79A002C7FAF /* NXRefreshTableViewDemoUITests.m */,
+				88C6B2521C9BE79A002C7FAF /* Info.plist */,
+			);
+			path = NXRefreshTableViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		88C6B25E1C9BE904002C7FAF /* NXRefreshTableView */ = {
+			isa = PBXGroup;
+			children = (
+				88C6B2621C9BE971002C7FAF /* NXRefreshTableView.h */,
+				88C6B2631C9BE971002C7FAF /* NXRefreshTableView.m */,
+			);
+			name = NXRefreshTableView;
+			path = ../NXRefreshTableView;
+			sourceTree = "<group>";
+		};
+		B9E36CF97809CF13E7280150 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				284EC2792C3C209648635B5B /* Pods-NXRefreshTableViewDemo.debug.xcconfig */,
+				C93F02BD2B2FB2D920C71C1D /* Pods-NXRefreshTableViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB9A3503EC6A50913A02A98C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D3B131BF5600E11923E3C92 /* libPods-NXRefreshTableViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88C6B2271C9BE79A002C7FAF /* NXRefreshTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C6B2551C9BE79A002C7FAF /* Build configuration list for PBXNativeTarget "NXRefreshTableViewDemo" */;
+			buildPhases = (
+				284D6A8E578511E6A8C38B13 /* Check Pods Manifest.lock */,
+				88C6B2241C9BE79A002C7FAF /* Sources */,
+				88C6B2251C9BE79A002C7FAF /* Frameworks */,
+				88C6B2261C9BE79A002C7FAF /* Resources */,
+				20D891AC71EAE847F55AA3D6 /* Embed Pods Frameworks */,
+				E4CB3ABEDAC0F6F15DC2D43B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NXRefreshTableViewDemo;
+			productName = NXRefreshTableViewDemo;
+			productReference = 88C6B2281C9BE79A002C7FAF /* NXRefreshTableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88C6B2401C9BE79A002C7FAF /* NXRefreshTableViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C6B2581C9BE79A002C7FAF /* Build configuration list for PBXNativeTarget "NXRefreshTableViewDemoTests" */;
+			buildPhases = (
+				88C6B23D1C9BE79A002C7FAF /* Sources */,
+				88C6B23E1C9BE79A002C7FAF /* Frameworks */,
+				88C6B23F1C9BE79A002C7FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88C6B2431C9BE79A002C7FAF /* PBXTargetDependency */,
+			);
+			name = NXRefreshTableViewDemoTests;
+			productName = NXRefreshTableViewDemoTests;
+			productReference = 88C6B2411C9BE79A002C7FAF /* NXRefreshTableViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88C6B24B1C9BE79A002C7FAF /* NXRefreshTableViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C6B25B1C9BE79A002C7FAF /* Build configuration list for PBXNativeTarget "NXRefreshTableViewDemoUITests" */;
+			buildPhases = (
+				88C6B2481C9BE79A002C7FAF /* Sources */,
+				88C6B2491C9BE79A002C7FAF /* Frameworks */,
+				88C6B24A1C9BE79A002C7FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88C6B24E1C9BE79A002C7FAF /* PBXTargetDependency */,
+			);
+			name = NXRefreshTableViewDemoUITests;
+			productName = NXRefreshTableViewDemoUITests;
+			productReference = 88C6B24C1C9BE79A002C7FAF /* NXRefreshTableViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88C6B2201C9BE79A002C7FAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = nightx;
+				TargetAttributes = {
+					88C6B2271C9BE79A002C7FAF = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					88C6B2401C9BE79A002C7FAF = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 88C6B2271C9BE79A002C7FAF;
+					};
+					88C6B24B1C9BE79A002C7FAF = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 88C6B2271C9BE79A002C7FAF;
+					};
+				};
+			};
+			buildConfigurationList = 88C6B2231C9BE79A002C7FAF /* Build configuration list for PBXProject "NXRefreshTableViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88C6B21F1C9BE79A002C7FAF;
+			productRefGroup = 88C6B2291C9BE79A002C7FAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88C6B2271C9BE79A002C7FAF /* NXRefreshTableViewDemo */,
+				88C6B2401C9BE79A002C7FAF /* NXRefreshTableViewDemoTests */,
+				88C6B24B1C9BE79A002C7FAF /* NXRefreshTableViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88C6B2261C9BE79A002C7FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C6B23B1C9BE79A002C7FAF /* LaunchScreen.storyboard in Resources */,
+				88C6B2381C9BE79A002C7FAF /* Assets.xcassets in Resources */,
+				88C6B2361C9BE79A002C7FAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C6B23F1C9BE79A002C7FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C6B24A1C9BE79A002C7FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20D891AC71EAE847F55AA3D6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NXRefreshTableViewDemo/Pods-NXRefreshTableViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		284D6A8E578511E6A8C38B13 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4CB3ABEDAC0F6F15DC2D43B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NXRefreshTableViewDemo/Pods-NXRefreshTableViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88C6B2241C9BE79A002C7FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C6B2331C9BE79A002C7FAF /* ViewController.m in Sources */,
+				88C6B2301C9BE79A002C7FAF /* AppDelegate.m in Sources */,
+				88C6B22D1C9BE79A002C7FAF /* main.m in Sources */,
+				88C6B2641C9BE971002C7FAF /* NXRefreshTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C6B23D1C9BE79A002C7FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C6B2461C9BE79A002C7FAF /* NXRefreshTableViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C6B2481C9BE79A002C7FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C6B2511C9BE79A002C7FAF /* NXRefreshTableViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88C6B2431C9BE79A002C7FAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88C6B2271C9BE79A002C7FAF /* NXRefreshTableViewDemo */;
+			targetProxy = 88C6B2421C9BE79A002C7FAF /* PBXContainerItemProxy */;
+		};
+		88C6B24E1C9BE79A002C7FAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88C6B2271C9BE79A002C7FAF /* NXRefreshTableViewDemo */;
+			targetProxy = 88C6B24D1C9BE79A002C7FAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88C6B2341C9BE79A002C7FAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88C6B2351C9BE79A002C7FAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88C6B2391C9BE79A002C7FAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88C6B23A1C9BE79A002C7FAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88C6B2531C9BE79A002C7FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88C6B2541C9BE79A002C7FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88C6B2561C9BE79A002C7FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284EC2792C3C209648635B5B /* Pods-NXRefreshTableViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NXRefreshTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maitianer.NXRefreshTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88C6B2571C9BE79A002C7FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C93F02BD2B2FB2D920C71C1D /* Pods-NXRefreshTableViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NXRefreshTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maitianer.NXRefreshTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		88C6B2591C9BE79A002C7FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NXRefreshTableViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maitianer.NXRefreshTableViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NXRefreshTableViewDemo.app/NXRefreshTableViewDemo";
+			};
+			name = Debug;
+		};
+		88C6B25A1C9BE79A002C7FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NXRefreshTableViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maitianer.NXRefreshTableViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NXRefreshTableViewDemo.app/NXRefreshTableViewDemo";
+			};
+			name = Release;
+		};
+		88C6B25C1C9BE79A002C7FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NXRefreshTableViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maitianer.NXRefreshTableViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NXRefreshTableViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		88C6B25D1C9BE79A002C7FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NXRefreshTableViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maitianer.NXRefreshTableViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NXRefreshTableViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88C6B2231C9BE79A002C7FAF /* Build configuration list for PBXProject "NXRefreshTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C6B2531C9BE79A002C7FAF /* Debug */,
+				88C6B2541C9BE79A002C7FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88C6B2551C9BE79A002C7FAF /* Build configuration list for PBXNativeTarget "NXRefreshTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C6B2561C9BE79A002C7FAF /* Debug */,
+				88C6B2571C9BE79A002C7FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88C6B2581C9BE79A002C7FAF /* Build configuration list for PBXNativeTarget "NXRefreshTableViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C6B2591C9BE79A002C7FAF /* Debug */,
+				88C6B25A1C9BE79A002C7FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88C6B25B1C9BE79A002C7FAF /* Build configuration list for PBXNativeTarget "NXRefreshTableViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C6B25C1C9BE79A002C7FAF /* Debug */,
+				88C6B25D1C9BE79A002C7FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88C6B2201C9BE79A002C7FAF /* Project object */;
+}

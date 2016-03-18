@@ -1,0 +1,9 @@
+platform :ios, '8.0'
+
+
+target :'NXRefreshTableViewDemo' do
+    pod 'TPKeyboardAvoiding'
+    pod 'MJRefresh'
+    pod 'DZNEmptyDataSet'
+
+end
