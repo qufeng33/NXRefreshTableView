@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'NXRefreshTableView'
-  s.version      = '0.1.1'
+  s.version      = '0.1.2'
   s.summary      = '带上啦加载，下啦刷新的TableView'
   s.homepage     = 'https://github.com/qufeng33/NXRefreshTableView.git'
   s.license      = 'MIT'

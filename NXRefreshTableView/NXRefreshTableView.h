@@ -12,6 +12,7 @@
 
 @protocol RefreshDelegate <NSObject>
 
+@optional
 - (void)loadNewData:(MJRefreshNormalHeader *)header;
 - (void)loadMoreData:(MJRefreshAutoFooter *)footer;
 
